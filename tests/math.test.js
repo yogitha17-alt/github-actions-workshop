@@ -27,7 +27,7 @@ describe('Math js file tests: addTwoNumbers function', () => {
 
   test('should return 22 when numbers 11 and 11 are provided', () => {
     const ans = addTwoNumbers(11, 11)
-    expect(ans).toBe(21)
+    expect(ans).toBe(22)
     expect(ans).not.toBe(1111)
   })
 
