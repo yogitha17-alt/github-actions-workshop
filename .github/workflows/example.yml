@@ -24,6 +24,9 @@ jobs:
 
       - name: Run Tests
         run: npm test
+        
+      - name: Lint check
+        run: npm run lint
 
   # # JOB 2: DEPLOY (Only runs if Test passes)
   # deploy:
