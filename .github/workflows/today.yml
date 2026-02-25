@@ -1,0 +1,15 @@
+name: New Issue
+
+on: 
+  issues:
+    types: [opened]
+
+jobs:
+  print-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Display Message"
+        run: |
+          echo "New issue has been opened!"
+          echo "The issue was titled: ${{ github.event.issue.title }}"
+          echo "The issue was opened by: ${{ github.event.issue.user.login }}"
