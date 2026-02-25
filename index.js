@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
      * Perform the maths once at the start before
      * any changes are made
      */
-      performMaths(currentFirst, currentSecond)
+  performMaths(currentFirst, currentSecond)
 
   /**
      * On change listener for first value,
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('first').addEventListener('change', (event) => {
     console.log('first changesd: ' + event.target.value)
     currentFirst = parseInt(event.target.value)
-    performMaths(currentFirst, currentSecond);;
+    performMaths(currentFirst, currentSecond)
   })
 
   /**
