@@ -17,7 +17,8 @@
     "scripts": {
         "start": "echo \"just drag and drop the index file into browser\" && exit 0",
         "test": "jest",
-        "nothing": "echo \"Error: no test specified\" && exit 1"
+        "nothing": "echo \"Error: no test specified\" && exit 1",
+        "lint": "standard"
     },
     "devDependencies": {
         "@types/jest": "^30.0.0",
